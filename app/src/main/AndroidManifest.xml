@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Recycling"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".DriverUpdateTask"
+            android:exported="false" />
+        <activity
+            android:name=".DriverViewTasks"
+            android:exported="false" />
+        <activity
+            android:name=".ClientSendRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ClientViewMaterials"
+            android:exported="false" />
+        <activity
+            android:name=".ClientDeleteRequest"
+            android:exported="false" />
+        <activity
+            android:name=".ClientRequests"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteTask"
+            android:exported="false" />
+        <activity
+            android:name=".ViewRequests"
+            android:exported="false" />
+        <activity
+            android:name=".ManageRequests"
+            android:exported="false" />
+        <activity
+            android:name=".ManageTasks"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteUpdateMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".AddMaterial"
+            android:exported="false" />
+        <activity
+            android:name=".ManageMaterials"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteDriver"
+            android:exported="false" />
+        <activity
+            android:name=".AddDriver"
+            android:exported="false" />
+        <activity
+            android:name=".ManageDrivers"
+            android:exported="false" />
+        <activity
+            android:name=".AddClient"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteClientActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageClientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Client_home_page"
+            android:exported="false" />
+        <activity
+            android:name=".Driver_home_page"
+            android:exported="false" />
+        <activity
+            android:name=".Manager_home_page"
+            android:exported="false" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="true"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
